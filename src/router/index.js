@@ -61,6 +61,10 @@ export default new Router({
       path: '/popover',
       name: 'popover',
       component: () => import('@/view/popover')
+    }, {
+      path: '/progress',
+      name: 'progress',
+      component: () => import('@/view/progress')
     }
   ]
 })
